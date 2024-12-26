@@ -1,0 +1,57 @@
+<!Doctype>
+<html lang="en">
+    <head>
+        <title>SignUp</title>
+    </head>
+    <style>
+        
+            #container{
+                align-content: center;
+                padding:20px;
+                background-color: blueviolet;
+                border:0 solid skyblue;
+                width:25%;
+                height:400px;
+            }
+            body{
+                background-color: skyblue;
+            }
+            input{
+                width:80%;
+                font-size: 20px;
+                margin-left:25px;
+                margin-top:5px;
+                margin-bottom:5px;
+                border-radius:5px;
+            }
+            label{
+                font-size:20px;
+                color:white;
+                margin-left:25px;
+            }
+            #submit{
+                background:navy;
+            }
+            #submit:hover{
+                background:red;
+            }
+        
+    </style>
+    <body>
+        <div id="container">
+            <form action="upload.php" method="get" enctype="multipart/form-data">
+                <h2><center>SignUp Form</center></h2>
+                <label>Full Name</label><span>*</span><br>
+                <input type="text" placeholder="Enter Full Name" required/><br>
+                <label>EmailId</label><span>*</span><br>
+                <input type="text" placeholder="EmailId" required/><br>
+                <label>Mobile No.</label><br>
+                <input type="text" placeholder="Mobile No." required/><br>
+                <label>Address</label><br>
+                <input type="text" placeholder="Address"/><br>
+                <input id="submit" type="submit" value="Register"/>
+            </form>
+            
+        </div>
+    </body>
+</html>

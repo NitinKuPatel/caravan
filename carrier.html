@@ -1,0 +1,120 @@
+<!DOCTYPE html> 
+<HTML5 LANG="EN">
+    <HEAD>
+        <TITLE>CARAVAN</TITLE>
+        <link rel="stylesheet" href="Style.css">
+        <style>
+               #im{
+            Width:100%;
+            height:600px;
+        }
+        #description{
+            display:grid;
+            grid-template-columns: auto auto;
+            
+        }
+        .access,.drive{
+            margin-left:20px;
+            width:700px;
+            height:200px;
+            margin-top:20px;
+        }
+        #Brokerage{
+            margin-top:25px;
+            margin-left:30%;
+        }
+        #btn{
+            width:100px;
+            height:30px;
+            border-radius:10%;
+            background:red;
+            color:white;
+            margin-left:20%;
+        }
+        a{
+            text-decoration:none;
+        }
+        footer{
+            margin-left:20px;
+        }
+        </style>
+    </HEAD>
+    <BODY>
+        <Nav ID="container">
+            <img id="img1" src="images/CVN.jpg" alt="logo">
+                    <a href="login.html"><div id="Login">Login</div></a>
+                    <a href="Caravan.html"><div id="Login">Home</div></a>
+                    <a href="signUp.html"><div id="SignUp">SignUp</div></a>
+                    <a href="broker.html"><div id="bar">Brokers</div></a>
+                
+        </nav>
+        <div id=slide>
+            
+            <img id="im" src=""/ alt="loading trucks">
+    <script>
+        const imgs = ["truck1.jpg","truck2.jpg","truck3.jpg","truck4.jpg","truck5.jpg",];
+        var index=0;
+      
+        window.setInterval(displayImg,3000);
+
+    function displayImg(){
+        if(index>=5){
+            index=0;
+         } 
+
+            document.getElementById("im").src="images/" +imgs[index];
+            index++;
+        
+        }
+       
+
+    </script>
+    <div id="Brokerage">
+    <H1>ELEVATE YOUR BROKERAGE</H1><br>
+    <p>&nbsp; &nbsp;With automation of the booking process and full load <br>
+        &nbsp; &nbsp;lifecycle, the Caravan Platform lowers operating costs while<br>
+        &nbsp; &nbsps;caling booking capacity through access to flexible and<br>
+        &nbsp; &nbsp;reliable small carriers.</p>
+        &nbsp; &nbsp;<a href="carrierSignup.html"> <div id="btn">Get Started</div></a></div>
+    <div id="description">
+        <div class="access"><h2>Access a large network of reliable carriers</h2><br>
+        <p>Tap into a vast network of owner-operators and small carriers<br>
+             aggregated onto one streamlined platform. This reliable, readily<br>
+             available capacity flexes as your customers demand<br>
+              fluctuates</p></div>
+        <div class="access"><h2>Match more loads with 24/7 coverage</h2><br>
+        <p>Automatically reach carriers every day, at any time-even<br>
+         you sleep-to make sure you find the right trucks at a <br>
+         competitive cost, helping you stay ahead in the market.</p></div>
+        <div class="drive"><h2>Drive on-time service and mitigate fraud</h2>
+         <p>our risk, and performance, helping yu ensure your loads are<br>
+            in good hands while mitigating theft and double brokering to<br>
+          provide you peace of mind.</p> </div>
+        <div class="drive"><h2>Boost productivity and lower operating expenses</h2><br>
+        <p>By adding our proprietary tecchnology to your brokerage, you <br>
+        benefit from automated carrier negotiation, vetting, GPS load<br>
+       tracking, status updates, documnet management, payment,<br>
+        and more to save you time and money.</p></div>
+    </div>
+       
+        
+        <footer>
+            <br>
+            <br>
+            <hr id="hrl">
+            <br>
+            <img id="img5" src="images\CVN.jpg" width="100px" height="40px">
+            
+
+            <h3>&nbsp; &nbsp;CARRIER SUPPORT</h3><br>
+            <h5>&nbsp; &nbsp;Help Center</h5><br>
+            <hr id="hrl">
+            <p id="l1">&copy;2024 Flexport Freight Tech LLC &dot;Privacy Policy</p>
+                <p id="l2" >The Caravan Platform is owned and operated by Flexport Tech LLC.</p><br>
+                <br>
+                <br>
+            
+        </footer>
+
+    </BODY>
+</HTML5>

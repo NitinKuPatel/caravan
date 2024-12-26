@@ -1,0 +1,90 @@
+<!DOCTYPE html> 
+<HTML5 LANG="EN">
+    <HEAD>
+        <TITLE>CARAVAN</TITLE>
+        <link rel="stylesheet" href="Style.css">
+        <style>
+        
+            #container1{
+                align-content: center;
+                padding:20px;
+                background-color: white;
+                border:0 solid skyblue;
+                width:25%;
+                height:400px;
+                margin-left: 30%;
+            }
+            
+            input{
+                width:80%;
+                font-size: 20px;
+                margin-left:25px;
+                margin-top:5px;
+                margin-bottom:5px;
+                border-radius:5px;
+            }
+            label{
+                font-size:20px;
+                color: black;
+                margin-left:25px;
+            }
+            #submit{
+                background:navy;
+            }
+            #submit:hover{
+                background:red;
+            }
+        
+    </style>
+    </HEAD>
+    <BODY>
+        <Nav ID="container">
+            <img id="img1" src="images/CVN.jpg" alt="logo">
+                    <a href="caravan.html"><div id="Login">Home</div></a>
+                    <a href="login.html"><div id="Login">Login</div></a>
+                    <a href="carrier.html"> <div id="bar">Carriers</div></a>
+                    <a href="broker.html"><div id="bar">Brokers</div></a>
+                
+        </nav>
+        <div id="container1">
+            <form action="broker.php" method="POST" enctype="multipart/form-data">
+                <h2><center>SignUp Form</center></h2>
+                <label>Full Name</label><span>*</span><br>
+                <input type="text" placeholder="Enter Full Name" name="Username" required/><br>
+                <label>Adhaar No.*</label>
+                <input type="text" placeholder="Enter Adhaar No." name= "Adhaar" required/><br>
+                <label>Pan Card*</label>
+                <input type="text" placeholder="Enter Pan Card" name="Pan" required/><br>
+                <label>EmailId</label><span>*</span><br>
+                <input type="text" placeholder="EmailId" name="Email" required/><br>
+                <label>Mobile No.</label><br>
+                <input type="text" placeholder="Mobile No." name="Mobile" required/><br>
+                <label>Create Password</label><br>
+                <input type="password" placeholder="Password" name="Password" required/><br>
+                <label>Current Address</label><br>
+                <input type="text" placeholder="Address" name="Address" required/><br>
+                <input id="submit" type="submit" value="Register" />
+            </form>
+            
+        </div>
+        <footer>
+            <br>
+            <br>
+            <hr id="hrl">
+            <br>
+            <img id="img5" src="images\CVN.jpg" width="100px" height="40px">
+
+            
+
+            <h3>&nbsp; &nbsp;BROKER SUPPORT</h3><br>
+            <h5>&nbsp; &nbsp;Help Center</h5><br>
+            <hr id="hrl">
+            <p id="l1">&copy;2024 Flexport Freight Tech LLC &dot;Privacy Policy</p>
+                <p id="l2" >The Caravan Platform is owned and operated by Flexport Tech LLC.</p><br>
+                <br>
+                <br>
+            
+        </footer>
+
+    </BODY>
+</HTML5>

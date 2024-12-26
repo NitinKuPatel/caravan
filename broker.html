@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<HTML5 LANG="EN">
+    <HEAD>
+        <TITLE>CARAVAN</TITLE>
+        <link rel="stylesheet" href="Style.css">
+    </HEAD>
+    <style>
+        #im{
+            Width:100%;
+            height:600px;
+        }
+        #table1{
+            margin-left:100px;
+    }
+    #arrow{
+        width:25px;
+        height:25px;
+    }
+    #picture{
+        width:650px;
+        height:600px;
+        
+        
+    }
+    #passage{
+        width:700px;
+        height:600px;
+        
+        padding-left:20px;
+        padding-top:100px;
+        }
+    #pic-pass{
+        display:grid;
+        grid-template-columns: auto auto;
+    }
+    footer{
+            margin-left:20px;
+        }
+    </style>
+    <BODY>
+        <Nav ID="container">
+            <img id="img1" src="images\CVN.jpg" alt="logo">
+                    <a href="login.html"><div id="Login">Login</div></a>
+                    <a href="Caravan.html"><div id="Login">Home</div></a>
+                    <a href="signUp.html"><div id="SignUp">SignUp</div></a>
+                    <a href="carrier.html"><div id="bar">Carriers</div></a>
+                
+        </nav>
+        <div id=slide>
+            
+            <img id="im" src=""/ alt="loading trucks">
+    <script>
+        const imgs = ["truck1.jpg","truck2.jpg","truck3.jpg","truck4.jpg","truck5.jpg",];
+        var index=0;
+      
+        window.setInterval(displayImg,4000);
+
+    function displayImg(){
+        if(index>=5){
+            index=0;
+         } 
+
+            document.getElementById("im").src="images/" +imgs[index];
+            index++;
+        
+        }
+
+    </script>
+        </div>
+        <h1> <center>Why carriers choose the Caravan app</center></h1><br><br><br>
+        <table id="table1">
+            <th><h2>Maximize earnings</h2><br><br><p>Drive your business forward
+                 by keeping your trucks<br>full on the lanes you like to run.</p><br>
+                <img src="images/Rarrow.png" id="arrow"></th>
+            <th><h2>Reduce hassle</h2><br><br><p>&nbsp; &nbsp;Make your job easier, 
+                cutting down operating costs<br>&nbsp; &nbsp;and boosting profits.</p><br>
+            <img src="images/Rarrow.png" id="arrow"></th>
+            <th><h2><p>See all the loads</h2><br><br>&nbsp; &nbsp;Get instant access to
+                winning freight from brokers <br>&nbsp; &nbsp;across the button.</p><br>
+            <img src="images/Rarrow.png" id="arrow"></th>
+        </table>
+
+            <div id="pic-pass">
+                <div id="picture"><img src="images/tracking.jpg" alt="real time tracking" width="650px" height="600px"></div>
+            <div id="passage"><h1>Make more money</h1>
+                            <h3>Our free app gives you the best opportunity to maximize<br>your earnings.</h3><br><br>
+                        <ul>
+                            <li>View, bid on, and win loads-24/7</li>
+                            <li>Request hassle-free detention or lumper codes within the app</li>
+                            <li>get paid fast with QuickPay options on every load</li>
+                            <li>find and book backhauls to reduce empty miles</li>
+                        </ul>
+                    <a href="brokerSignup.html"><div id="SignUp">Sign Up</div></div></a>
+            </div>
+       
+        
+        <footer>
+            <br>
+            <br>
+            <hr id="hrl">
+            <br>
+            <img id="img5" src="images\CVN.jpg" width="100px" height="40px">
+            
+
+            <h3>&nbsp; &nbsp;Broker SUPPORT</h3><br>
+            <h5>&nbsp; &nbsp;Help Center</h5><br>
+            <hr id="hrl">
+            <p id="l1">&copy;2024 Flexport Freight Tech LLC &dot;Privacy Policy</p>
+                <p id="l2" >The Caravan Platform is owned and operated by Flexport Tech LLC.</p><br>
+                <br>
+                <br>
+            
+        </footer>
+
+    </BODY>
+</HTML5>
